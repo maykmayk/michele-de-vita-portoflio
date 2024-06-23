@@ -12,8 +12,11 @@ module.exports = {
       day900: '#1D0B01',
     },
     extend: {
+      spacing: {
+        '128': '32rem',
+      },
       letterSpacing: {
-        tighter: '-0.02em', 
+        tighter: '-0.0em', 
       },
       fontFamily: {
         'dm-medium': ['DM-Medium', 'sans-serif'],
