@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "DM-Medium";
+  src: url(./assets/fonts/DMSans-VariableFont.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "DM-SemiBold";
+  src: url(./assets/fonts/DMSans-VariableFont.ttf);
+  font-weight: 600;
+}
+
+body {
+  @apply bg-[#F6F5F5] min-h-screen font-dm-medium tracking-tighter;
+}
