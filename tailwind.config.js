@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     colors: {
       accent: '#F34914',
+      day: "#FFFFFF",
       day100: '#F6F5F5',
       day400: '#7F7975',
       day700: '#2A2827',
@@ -21,6 +22,7 @@ module.exports = {
       fontFamily: {
         'dm-medium': ['DM-Medium', 'sans-serif'],
         'dm-semibold': ['DM-SemiBold', 'sans-serif'],
+        'ibm-mono': ['IBM-Mono', 'sans-serif'],
       },
     },
   },

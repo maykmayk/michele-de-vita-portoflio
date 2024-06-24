@@ -12,6 +12,10 @@
   src: url(./assets/fonts/InterTight-VariableFont_wght.ttf);
   font-weight: 600;
 }
+@font-face {
+  font-family: "IBM-Mono";
+  src: url(./assets/fonts/IBMPlexMono-Medium.ttf);
+}
 
 body {
   @apply bg-[#F6F5F5] min-h-screen font-dm-medium tracking-tighter;
